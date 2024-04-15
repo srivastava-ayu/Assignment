@@ -25,11 +25,9 @@ Demo Images:
 ![Data_Upload](assignment_technomile/Images/data_upload.png)
 
 2. Preprocessing:
-
-   - Cleaning and preprocessing of resume and JD text is done.
+    - Cleaning and preprocessing of resume and JD text is done.
     ```python
-    def preprocess_text(self, text):
-            """Preprocesses text by lowercasing, removing punctuation, and tokenizing."""
+        def preprocess_text(self, text):
             text = text.lower()  # Lowercase
             text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
             tokens = nltk.word_tokenize(text)  # Tokenize
