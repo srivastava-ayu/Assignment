@@ -171,7 +171,7 @@ def main():
             # We want to make sure that these answers are only generated from the text from my resume
             # this can be done by giving it prompt to work with
 
-            llm = ChatOpenAI(model_name=GPT_4, temperature=0)
+            llm = ChatOpenAI(model_name=GPT_35_TURBO, temperature=0)
 
             retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
