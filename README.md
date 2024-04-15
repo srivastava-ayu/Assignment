@@ -17,6 +17,8 @@ OR
 6. Run `pip install -r requirements.txt`
 7. Run StreamLit `streamlit run app.py`
 
+
+
 1. Data Collection:
 
    - The UI have the functionality to upload Resumes and Job descriptions.
