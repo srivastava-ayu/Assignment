@@ -69,8 +69,24 @@ Demo Images:
     - Match Score and Explanation using LLM is done.
 
 Demo Images:
-![Match_score and Explanation](assignment_technomile/Images/Match_score.png)
+![Match_score and Explanation for Resumes_1](assignment_technomile/Images/Resume_1.png)
+![Match_score and Explanation for Resumes_2](assignment_technomile/Images/Resume_2.png)
 
+
+# TO-DO:
+
+    1. Generate a CSV file containing detailed matching results.
+    Include the following columns in the CSV:
+    Resume: File name or identifier of the resume.
+    JD: File name or identifier of the job description.
+    Matching_score: Overall similarity score between the resume and job description.
+    Matching_Skills: Specific skills found in both the resume and job description.
+    (Optional) Additional relevant columns, such as:
+    Top_Matching_Keywords
+    Experience_Match
+    Education_Match
+
+    2. Make a better UI and functionality to extract keywords from Resume and JD.
 
 
 
