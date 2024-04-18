@@ -24,7 +24,7 @@ OR
    - The UI have the functionality to upload Resumes and Job descriptions.
 
 Demo Images:
-![Data_Upload](assignment_technomile/Images/data_upload.png)
+![Data_Upload](Images/data_upload.png)
 
 2. Preprocessing:
     - Cleaning and preprocessing of resume and JD text is done.
@@ -69,8 +69,8 @@ Demo Images:
     - Match Score and Explanation using LLM is done.
 
 Demo Images:
-![Match_score and Explanation for Resumes_1](assignment_technomile/Images/Resume_1.png)
-![Match_score and Explanation for Resumes_2](assignment_technomile/Images/Resume_2.png)
+![Match_score and Explanation for Resumes_1](Images/Resume_1.png)
+![Match_score and Explanation for Resumes_2](Images/Resume_2.png)
 
 
 # TO-DO:
